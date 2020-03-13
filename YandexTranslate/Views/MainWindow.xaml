@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:YandexTranslate"
         xmlns:viewmodels="clr-namespace:YandexTranslate.ViewModels"
         mc:Ignorable="d"
-        Title="Она- со мной, углепластик.так охладите трахание.я рассматриваю ее пользу" Height="600" Width="800">
+        Title="TranslateApp" Height="600" Width="800">
     <Window.DataContext>
         <viewmodels:MainViewModel/>
     </Window.DataContext>
@@ -16,7 +16,7 @@
             <ColumnDefinition Width="95*"/>
             <ColumnDefinition Width="169*"/>
         </Grid.ColumnDefinitions>
-        <Button Command="{Binding Command}" Margin="63,394,344,125" BorderBrush="Yellow" BorderThickness="2" Grid.Column="1" Content="Перевести" />
+        <Button Command="{Binding Command}" Margin="63,394,344,125" BorderBrush="Yellow" BorderThickness="2" Grid.Column="1" Content="Translate" />
         <ComboBox ItemsSource="{Binding InputLang}" SelectedValue="{Binding SelectedInputLang}" Name="LanguageFrom" Margin="10,10,135,522"/>
         <TextBox Text="{Binding InputString,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10,62,465,407" BorderBrush="Yellow" BorderThickness="2" Grid.ColumnSpan="2"/>
         <TextBox Text="{Binding OutputString, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged }" Margin="180,62,10,407" BorderBrush="Yellow" BorderThickness="2" Grid.Column="1"/>
