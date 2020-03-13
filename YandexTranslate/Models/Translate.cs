@@ -23,13 +23,13 @@ namespace YandexTranslate
 
             switch (inputLang)
             {
-                case "Английский":
+                case "English":
                     lp.InputLang = Lang.En;
                     break;
-                case "Русский":
+                case "Russian":
                     lp.InputLang = Lang.Ru;
                     break;
-                case "Немецкий":
+                case "Deutsch":
                     lp.InputLang = Lang.De;
                     break;
             }
@@ -38,15 +38,15 @@ namespace YandexTranslate
             #region OutputLang
             switch (outputLang)
             {
-                case "Английский":
-                   
+                case "English":
                     lp.OutputLang = Lang.En;
                     break;
-                case "Немецкий":
-                    lp.OutputLang = Lang.De;
-                    break;
-                case "Русский":
+                
+                case "Russian":
                     lp.OutputLang = Lang.Ru;
+                    break;
+                case "Deutsch":
+                    lp.OutputLang = Lang.De;
                     break;
             }
             
