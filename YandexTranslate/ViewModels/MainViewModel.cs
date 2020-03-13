@@ -61,9 +61,9 @@ namespace YandexTranslate.ViewModels
             {
                 return new List<string>
                 {
-                    "Английский",
-                    "Русский",
-                    "Немецкий"
+                    "English",
+                    "Russian",
+                    "Deutsch"
                 };
             }
         }
@@ -86,9 +86,9 @@ namespace YandexTranslate.ViewModels
             {
                 return new List<string>
                 {
-                    "Английский",
-                    "Русский",
-                    "Немецкий"
+                    "English",
+                    "Russian",
+                    "Deutsch"
                 };
             }
         }
